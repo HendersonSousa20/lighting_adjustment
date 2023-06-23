@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.css">
+  
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    
+
+  <title>lighting adjustment</title>
+</head>
+<body>
+  <main>
+    <div class="preview"></div>
+
+      <span>lighting adjustment</span>
+
+      <div class="controls">
+      <div class="hue">
+        <i class="ph-light ph-palette"></i>
+
+        <div>
+          <input type="range" id="hue-slider" min="0" max="360" step="1" value="0" >
+        </div>
+      </div>
+
+        <div class="brightness">
+        <i class="ph-light ph-sun"></i>
+
+        <div>
+          <input type="range" id="brightness-slider" min="0" max="100" step="1" value="100" >
+        </div>
+        </div>
+
+         <div class="contrast">
+       <i class="ph-fill ph-circle-half"></i>
+
+        <div>
+          <input type="range" id="contrast-slider" min="0" max="100" step="1" value="100" >
+        </div>
+         </div>   
+    </div>
+  </main>
+
+  <script src="./src/javascript/script.js" defer></script>
+
+</body>
+</html>
